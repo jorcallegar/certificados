@@ -1,0 +1,6 @@
+#real lab servers
+
+192.168.20.50 rhel8master.labrhel.com rhel8master
+192.168.20.60 rhel8cliente1.labrhel.com rhel8cliente1
+192.169.20.70 rhel8cliente2.labrhel.com rhelcliente2
+ 
