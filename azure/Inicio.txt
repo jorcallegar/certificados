@@ -1,0 +1,83 @@
+Preguntas: 44 (40 a 60 preguntas basadas en Whizlabs)
+Duración: 1 hora (85 minutos según Whizlabs)
+
+https://www.whizlabs.com/learn/course/microsoft-azure-az-900/quiz/19435/practice/start
+
+Hay 4 partes principales. Para cada parte, proporciono información resumida aquí para acelerar su aprendizaje o también puede usarla como material de revisión.
+
+
+Parte 1) Concepto de nube
+Esta parte contiene conocimientos generales sobre la computación en nube, por ejemplo, cuáles son los beneficios de la nube, las diferencias entre los tipos de oferta de servicios en la nube y las diferencias en los modelos de implementación de la nube.
+Beneficios tecnológicos de la nube:
+Alta disponibilidad : los principales proveedores de la nube (Azure, AWS, GCP) tienen varios centros de datos repartidos por todo el mundo. Los datos y el código almacenados en la nube se copian en más de un centro de datos. Si algo le sucede a un centro de datos, los datos se pueden recuperar de otro centro de datos.
+Tolerancia a fallas : en caso de que haya alguna falla en la aplicación o la infraestructura, el servicio puede continuar funcionando moviendo el trabajo a otros servidores en buen estado.
+Detección de desastres : los datos en la nube también se pueden copiar a otras regiones, por ejemplo, copiar datos del oeste de EE. UU. Al este de EE. UU. Si ocurre un desastre natural en el oeste de EE. UU. Y todos los centros de datos fallan, el centro de datos del este de EE. UU. Seguirá teniendo la copia de los datos.
+Escalabilidad : la aplicación que se ejecuta en la nube puede expandir su tamaño cuando hay más usuarios en el sistema.
+Elasticidad : la aplicación que se ejecuta en la nube puede reducir su tamaño cuando hay menos usuarios en el sistema. Los usuarios también pueden configurar el apagado automático fuera del horario comercial para ahorrar dinero.
+Beneficios comerciales de la nube:
+Agilidad : la nube permite que la empresa entregue un sistema de TI a los clientes más rápido. Las máquinas en la nube están listas para que los usuarios de la nube se pongan en marcha cuando lo necesiten y se apaguen cuando no lo necesiten.
+Economías de escala : la nube es un grupo compartido de máquinas y servicios. A medida que aumenta el número de clientes, los proveedores de la nube pueden reducir el costo o aumentar la calidad de los servicios.
+Gastos de capital (CapEx) frente a gastos operativos (OpEx) : la construcción de un centro de datos requiere una gran inversión de capital tanto para el hardware como para las instalaciones. Un centro de datos también requerirá un costo continuo de electricidad y personal para su funcionamiento. Al utilizar la nube, no se requiere el gasto de capital para construir un centro de datos.
+Modelo basado en el consumo (pago por uso) : los usuarios de la nube solo pagan por lo que necesitan, según la duración que necesitan.
+Tipos de oferta de servicios en la nube:
+IaaS (infraestructura como servicio) : en esta oferta, los proveedores de la nube ofrecen hardware básico en centros de datos administrados, como máquinas virtuales o almacenamiento de archivos. Los proveedores de la nube se encargarán de la infraestructura física, por ejemplo, la seguridad del centro de datos o la reparación del hardware, mientras que los usuarios de la nube deben encargarse del mantenimiento del servidor. Por ejemplo, Azure VM permite a los usuarios poner en marcha nuevas máquinas virtuales de cualquier tamaño.
+PaaS (plataforma como servicio) : los proveedores de la nube se encargarán de los servidores. Los usuarios de la nube solo necesitan traer código o datos de la aplicación. Por ejemplo, Azure SQL Database es un servicio completamente administrado por Azure que los usuarios no necesitan o no pueden acceder a nada más allá de sus datos.
+SaaS (software como servicio) : los proveedores de la nube se encargarán tanto de los servidores como del código. Los usuarios de la nube solo necesitan configurar el software para que se adapte a sus necesidades. Por ejemplo, Office 365 permite a los usuarios utilizar el paquete de software Microsoft Office.
+Diferencias en el modelo de implementación en la nube:
+Nube pública : cuando las empresas decidieron utilizar todos sus servidores del centro de datos de los proveedores de la nube.
+Nube privada : cuando las empresas decidieron utilizar todos sus servidores en su propio centro de datos para replicar los servicios en la nube, por ejemplo, ofreciendo componentes de autoservicio.
+Nube híbrida : cuando las empresas decidieron utilizar algunos de los servidores en su propio centro de datos y algunos de los servidores en la nube pública.
+
+
+Parte 2) Servicios básicos de Azure
+Esta parte contiene la introducción a los diferentes servicios que se ofrecen en Azure para cada categoría de servicio:
+Computación : máquina virtual de Azure, contenedor, servicio de Kubernetes
+Red : red virtual de Azure, equilibrador de carga, puerta de enlace de VPN, puerta de enlace de aplicaciones y red de entrega de contenido
+Internet de las cosas (IoT) : Azure IoT Hub, IoT Central
+Big Data y análisis : Azure HDInsight, Data Lake Analytics, Databricks
+Inteligencia artificial : Azure ML, ML Studio
+Computación sin servidor : función de Azure, aplicaciones lógicas
+Almacenamiento : Azure Blob Storage, almacenamiento en disco, almacenamiento de archivos, almacenamiento de Data Lake
+Base de datos : Azure SQL DB, SQL DW, CosmosDB
+Herramientas de administración : CLI de Azure, Powershell, Portal, Advisor
+Azure Marketplace : servicio de Azure para implementar servicios listos para usar de Azure o de un tercero. Como un paquete para instalar y configurar R Studio
+
+
+Parte 3) Seguridad, privacidad, cumplimiento y confianza en Azure
+Esta parte contiene la seguridad que Azure proporcionó para sus servicios, así como el compromiso de Azure con la privacidad y el cumplimiento normativo.
+Servicios de Azure para la seguridad en diferentes áreas:
+Seguridad de red : Firewall de Azure, protección DDoS y grupo de seguridad de red
+Autenticación y autorización : Azure Activity Directory (AD)
+Seguridad de aplicaciones : Azure Key Vault, protección de la información, protección avanzada contra amenazas
+Gobernanza de recursos : políticas e iniciativas de Azure, control de acceso basado en roles (RBAC), bloqueos, grupos de administración, asesor
+Supervisión e informes : Azure Monitor, estado del servicio
+Privacidad y cumplimiento normativo : Azure Government (para los gobiernos de EE. UU.), Alemania (para la normativa GDPR de la UE), Trust Center
+
+
+Parte 4) Precios y soporte de Azure
+Esta parte contiene la información sobre los diferentes tipos de suscripción de Azure, los factores de costo de los servicios de Azure, las herramientas para el cálculo de costos y los planes de soporte en Azure.
+Tipos de suscripción de Azure:
+Gratis : los nuevos usuarios recibirán créditos de $ 200 para gastar en cualquier producto de Azure en los primeros 30 días. También recibiremos acceso gratuito a productos populares de Azure durante los primeros 12 meses y acceso gratuito a productos gratuitos para siempre. Este tipo de subíndice requiere los detalles de la tarjeta de crédito, pero no se cobrará nada hasta que decidamos actualizar a una suscripción de pago por uso.
+Pago por uso (PAYG) : cobra mensualmente por los servicios utilizados en el último período de facturación. Este tipo es utilizado por particulares y empresas.
+Acuerdo empresarial : las empresas pueden llegar a un acuerdo con Azure que permitiría un precio con descuento para la licencia de software y los servicios de Azure.
+Estudiante : los estudiantes recibirán un crédito de $ 100 para gastar en los primeros 12 meses. No se requiere tarjeta de crédito para este tipo de suscripción, pero se requiere la verificación del correo electrónico del estudiante.
+Factores de costo de los servicios de Azure:
+Tipos de recursos : los diferentes productos de Azure tendrán diferentes precios, por ejemplo, el costo de la máquina virtual de Azure se basará en el tamaño de la máquina virtual, el sistema operativo, las horas de uso y el tamaño de almacenamiento. Los usuarios pueden apagar la máquina virtual temporalmente para ahorrar horas de uso, pero el costo de almacenamiento siempre incurrirá.
+Tipos de suscripción : la mayoría de los usuarios pagarán el precio estándar, mientras que los clientes empresariales pueden tener un costo descontado o estable.
+Ubicaciones : para algunos tipos de recursos, el costo variará según las ubicaciones del servidor. Por ejemplo, Azure VM en el centro de datos de Japón puede costar más que en el centro de datos de EE. UU.
+Tráfico entrante y saliente : el movimiento de datos entre diferentes centros de datos (zonas de disponibilidad) o regiones puede generar costos.
+Herramientas para el cálculo de costos para Azure
+Calculadora de TCO : el servicio para comparar el costo de la nube con el costo total de propiedad, por ejemplo, cuánto necesita gastar si va a construir la misma infraestructura en su propio centro de datos.
+Calculadora de precios : el sitio web donde los clientes potenciales pueden planificar sus costos antes de pasar a la nube de Azure
+Azure Cost Management: servicio gratuito de Azure que muestra cuánto hemos gastado en este período de facturación y también proporciona las mejores prácticas para optimizar el costo.
+Azure Advisor: servicio gratuito de Azure que brinda recomendaciones en alta disponibilidad, seguridad, rendimiento y costo según los productos de Azure que estamos utilizando.
+Acuerdo de nivel de servicio (SLA)
+SLA es el tiempo mínimo durante el cual Azure confirma que el servicio estará disponible para su uso. Si el servicio está fuera de línea durante más tiempo que el SLA, Azure proporcionará créditos a los clientes.
+Azure ofrece un SLA del 99,9% en la mayoría de los productos de Azure
+Hay algunos casos en los que se puede aumentar el SLA. Por ejemplo, Azure garantiza un SLA del 99,99% para las máquinas virtuales que tienen más de una instancia en más de una región.
+Funciones de vista previa pública vs vista previa privada
+La mayoría de las características nuevas en Azure se lanzarán como vista previa privada para usuarios limitados, luego como vista previa pública para todos los usuarios.
+Una vez que la función se haya probado a fondo, dejará de estar disponible en versión preliminar y se convertirá en función de disponibilidad general (GA).
+Azure proporciona Preview Portal para que los usuarios prueben nuevas características para Azure Portal. Para otras características que no están relacionadas con el portal, los usuarios pueden acceder a ellas desde el portal estándar de Azure.
+¡Ahora está listo para AZ-900!
+Lo que aprenderá de los cursos recomendados enumerados anteriormente, así como el resumen de este artículo, lo harán aprobar el examen con gran éxito.
